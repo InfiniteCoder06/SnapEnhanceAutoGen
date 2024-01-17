@@ -28,4 +28,4 @@ jobs:
         run: id=$(curl "https://ws2.aptoide.com/api/7/getApp/app_id/66863009")
 
       - name: Print Output
-        run: echo $id
+        run: echo "$id"
