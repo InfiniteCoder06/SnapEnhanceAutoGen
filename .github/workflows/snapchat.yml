@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: id=$(curl "https://ws2.aptoide.com/api/7/getApp/app_id/66863009" | jq -r ".nodes.meta.data.file.path")
+        run: id=$(curl "https://ws2.aptoide.com/api/7/getApp/app_id/66863009")
 
       - name: Print Output
         run: echo $id
