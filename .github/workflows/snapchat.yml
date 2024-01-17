@@ -25,4 +25,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: curl https://ws2.aptoide.com/api/7/getApp/app_id/66863009 | jq .nodes.meta.data.file
+        run: curl https://ws2.aptoide.com/api/7/getApp/app_id/66863009 | jq .nodes.meta.data.file.path
